@@ -9,8 +9,8 @@ let state = Object.freeze({
 // The settings should contain all of the "fixed" parts of your programs, like static HTMLElements and paramaters.
 const settings = Object.freeze({
     sample: {
-        height: 250,
-        width: 250,
+        height: 100,
+        width: 100,
         element: document.querySelector("#sample-output"),
         gravityConstant: 10,                                           //This is where GRAVITY can be adjusted.
     },
